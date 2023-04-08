@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(47, 190, 47);
+    background-color: lightblue;
 }
 
 img{
@@ -9,7 +9,7 @@ img{
     background-attachment: fixed;
     border-style: solid;
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 25px;
 
 }
 
