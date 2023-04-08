@@ -6,7 +6,7 @@ body{
 img{
     background-image: url("..\Exe04 - BiografiaCSS\Foto perfil.jpeg");
     background-position: left top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     border-style: solid;
     border-width: 1px;
