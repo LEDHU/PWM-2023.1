@@ -5,14 +5,6 @@ body{
 h1{
     color: slategrey;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 40px;
 }
-
-p::first-letter {
-    color: #ff0000;
-    font-size: xx-large;
-  }
-  
-  p::first-line {
-    color: #0000ff;
-    font-variant: small-caps;
-  }
