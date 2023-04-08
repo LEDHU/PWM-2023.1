@@ -1,5 +1,6 @@
 body{
     background-color: lightblue;
+    background-image: linear-gradient(to bottom right,#6495ED ,#836FFF);
 }
 
 img{
