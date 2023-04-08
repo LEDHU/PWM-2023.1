@@ -1,9 +1,11 @@
 body{
     background-color: lightblue;
+}
+
+img{
     background-image: url("..\Exe04 - BiografiaCSS\Foto perfil.jpeg");
     background-repeat: no-repeat;
     background-position: right top;
-
 }
 
 h1{
