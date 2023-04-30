@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(110, 102, 102);
+}
+
+img{
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2000px;
+    float: left;
+}
+
+h1{
+    color: rgb(27, 30, 32);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 40px;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+        
+footer {
+    position:inherit;
+    bottom: 0;
+    background-color: rgb(71, 51, 51);
+    color: #FFF;
+    width: 100%;
+    height: 180px;    
+    text-align: left;
+    line-height: 20px;
+}
+
+.texto{
+    display: inline-block;
+    background-position: center;
+}
+
+.tele{
+    display: inline-flex;
+}
+
+.loca{
+    display: inline-flex;
+}
+
+.linkedin{
+    display: inline-flex;
+}
+.email{
+    display: inline-flex;
+}
+
+.github{
+    display: inline-flex;
+}
+
+.container{
+    display: flex;
+}
+
+.perfil{
+    display: block;
+    width: 150px;
+}
+
+.icones{
+    display: block;
+}
