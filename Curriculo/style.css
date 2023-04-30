@@ -29,7 +29,7 @@ body {
 }
         
 footer {
-    position:absolute;
+    position:inherit;
     bottom: 0;
     background-color: rgb(71, 51, 51);
     color: #FFF;
