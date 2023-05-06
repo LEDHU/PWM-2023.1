@@ -173,7 +173,7 @@
         };
         firebase.initializeApp(firebaseConfig);
 
-        const contactsRef = firebase.firestore().collection('Dados dos usuarios');
+        const contactsRef = firebase.firestore().collection('contatos');
 
         // Adicione um novo contato ao Firestore
         function addContact(contact) {
