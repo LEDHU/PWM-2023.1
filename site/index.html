@@ -127,6 +127,17 @@
         </form>
       </section>
       <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyBaIh-bJRmsfXWc_mYXZ-6z2YKxWJ5qE5o",
+          authDomain: "astronauta-do-mundo.firebaseapp.com",
+          projectId: "astronauta-do-mundo",
+          storageBucket: "astronauta-do-mundo.appspot.com",
+          messagingSenderId: "404103914407",
+          appId: "1:404103914407:web:1ef93745a0c8e4e95bcc82",
+          measurementId: "G-CRWW0C93ZJ"
+        };
+        firebase.initializeApp(firebaseConfig);
+
         const menuToggle = document.querySelector('.menu-toggle');
         const nav = document.querySelector('nav');
         const form = document.querySelector('form');
@@ -161,17 +172,6 @@
             successMessage.style.display = 'none';
           }, 5000);
         }
-
-        var firebaseConfig = {
-          apiKey: "AIzaSyBaIh-bJRmsfXWc_mYXZ-6z2YKxWJ5qE5o",
-          authDomain: "astronauta-do-mundo.firebaseapp.com",
-          projectId: "astronauta-do-mundo",
-          storageBucket: "astronauta-do-mundo.appspot.com",
-          messagingSenderId: "404103914407",
-          appId: "1:404103914407:web:1ef93745a0c8e4e95bcc82",
-          measurementId: "G-CRWW0C93ZJ"
-        };
-        firebase.initializeApp(firebaseConfig);
 
         const contactsRef = firebase.firestore().collection('contatos');
 
