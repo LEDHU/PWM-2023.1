@@ -127,22 +127,8 @@
         </form>
       </section>
 
-      <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
-
       <script>
-        var firebaseConfig = {
-          apiKey: "AIzaSyBaIh-bJRmsfXWc_mYXZ-6z2YKxWJ5qE5o",
-          authDomain: "astronauta-do-mundo.firebaseapp.com",
-          projectId: "astronauta-do-mundo",
-          storageBucket: "astronauta-do-mundo.appspot.com",
-          messagingSenderId: "404103914407",
-          appId: "1:404103914407:web:1ef93745a0c8e4e95bcc82",
-          measurementId: "G-CRWW0C93ZJ"
-        };
-        firebase.initializeApp(firebaseConfig);
-
+        // Selecionando elementos do DOM
         const menuToggle = document.querySelector('.menu-toggle');
         const nav = document.querySelector('nav');
         const form = document.querySelector('form');
@@ -178,13 +164,35 @@
           }, 5000);
         }
 
+      </script>
+
+      <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+
+      <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyBaIh-bJRmsfXWc_mYXZ-6z2YKxWJ5qE5o",
+          authDomain: "astronauta-do-mundo.firebaseapp.com",
+          projectId: "astronauta-do-mundo",
+          storageBucket: "astronauta-do-mundo.appspot.com",
+          messagingSenderId: "404103914407",
+          appId: "1:404103914407:web:1ef93745a0c8e4e95bcc82",
+          measurementId: "G-CRWW0C93ZJ"
+        };
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+      <script>
         const contactsRef = firebase.firestore().collection('contatos');
 
         // Adicione um novo contato ao Firestore
         function addContact(contact) {
           return contactsRef.add(contact);
         }
-
+      </script>
+      
+      <script>
         // Função para enviar o formulário de contato
         formSubmitButton.addEventListener('click', (event) => {
           event.preventDefault();
