@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Astronauta no Mundo</title>
+  <title>Astronauta do Mundo</title>
   <link rel="stylesheet" href="style.css">
   <script>
     src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"
@@ -23,20 +23,12 @@
       measurementId: "G-CRWW0C93ZJ"
     };
     firebase.initializeApp(firebaseConfig);
-
-    // Acesse a coleção 'contatos' do Firestore
-    const contactsRef = firebase.firestore().collection('contatos');
-
-    // Adicione um novo contato ao Firestore
-    function addContact(contact) {
-      return contactsRef.add(contact);
-    }
   </script>
 </head>
 
 <body>
   <header>
-    <h1>Astronauta no Mundo</h1>
+    <h1>Astronauta do Mundo</h1>
     <nav>
       <ul>
         <li><a href="#destinos">Destinos</a></li>
@@ -243,6 +235,11 @@
     </section>
   </main>
   <script src="node.js"></script>
+<script>
+    src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"
+    src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"
+    src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"
+  </script>
 </body>
 
 </html>

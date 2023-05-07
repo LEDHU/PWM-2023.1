@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=7ol2DgfzvC4&list=PLVc5bWuiFQ8FQIWovvUiOO9ok_b6chPsh&index=13
+
+
 // Selecionando elementos do DOM
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
@@ -34,7 +37,6 @@ function showSuccessMessage() {
     successMessage.style.display = 'none';
   }, 5000);
 }
-
 
 // Função para enviar o formulário de contato
 formSubmitButton.addEventListener('click', (event) => {
