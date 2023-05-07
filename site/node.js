@@ -4,13 +4,16 @@ import 'firebase/database';
 
 // Configure a conexão com o seu projeto do Firebase
 const firebaseConfig = {
-  apiKey: '<sua-api-key>',
-  authDomain: '<seu-dominio>',
-  databaseURL: '<sua-url-do-banco-de-dados>',
-  projectId: '<seu-id-do-projeto>',
-  storageBucket: '<seu-bucket>',
-  messagingSenderId: '<seu-id-do-sender>',
-  appId: '<sua-app-id>',
+  
+  apiKey: "AIzaSyBaIh-bJRmsfXWc_mYXZ-6z2YKxWJ5qE5o",
+  authDomain: "astronauta-do-mundo.firebaseapp.com",
+  databaseURL: "https://astronauta-do-mundo-default-rtdb.firebaseio.com",
+  projectId: "astronauta-do-mundo",
+  storageBucket: "astronauta-do-mundo.appspot.com",
+  messagingSenderId: "404103914407",
+  appId: "1:404103914407:web:1ef93745a0c8e4e95bcc82",
+  measurementId: "G-CRWW0C93ZJ"
+
 };
 firebase.initializeApp(firebaseConfig);
 
