@@ -35,32 +35,6 @@ function showSuccessMessage() {
   }, 5000);
 }
 
-src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"
-src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"
-src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"
-
-
-var firebaseConfig = {
-  apiKey: "AIzaSyBaIh-bJRmsfXWc_mYXZ-6z2YKxWJ5qE5o",
-  authDomain: "astronauta-do-mundo.firebaseapp.com",
-  projectId: "astronauta-do-mundo",
-  storageBucket: "astronauta-do-mundo.appspot.com",
-  messagingSenderId: "404103914407",
-  appId: "1:404103914407:web:1ef93745a0c8e4e95bcc82",
-  measurementId: "G-CRWW0C93ZJ"
-};
-firebase.initializeApp(firebaseConfig);
-
-
-
-const contactsRef = firebase.firestore().collection('contatos');
-
-// Adicione um novo contato ao Firestore
-function addContact(contact) {
-  return contactsRef.add(contact);
-}
-
-
 
 // Função para enviar o formulário de contato
 formSubmitButton.addEventListener('click', (event) => {
