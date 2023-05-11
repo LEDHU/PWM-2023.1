@@ -27,6 +27,7 @@
 </head>
 
 <body>
+  <script src="node.js"></script>
   <header>
     <h1>Astronauta do Mundo</h1>
     <nav>
@@ -230,10 +231,16 @@
         
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem"></textarea>
-        <input type="submit" value="Enviar">
+        <input type="submit" onclick = "mensagemDeOk()" value="Enviar">
       </form>
     </section>
   </main>
+
+  <script>
+    function mensagemDeOk(){
+      alert("Dados recebidos. Entraremos em contato com você para marcamos a viagem!!");
+    }
+  </script>
   <script src="node.js"></script>
 <script>
     src = "https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"
