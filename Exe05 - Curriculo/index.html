@@ -53,50 +53,45 @@
             </div>
         </div>
 
-        <script>
-           // window.alert("Lalalaal")
-            //window.confirm("Esta gostando da aula?")
-            //window.prompt("Qual é o seu nome?")
-        </script>
-
         <footer>
             <h2>Contatos:</h2>
-
-            <div class = "rodape">
-                
-                <div class = "icones">
-                    <div class = "linkedin">
-                        <script>
-                            function linkedin(){
-                                alert("Será direcionado ao meu linkedin!");
-                            }
-                            setTimeout(linkedin, 3000);
-                        </script>
-                        <a href="https://www.linkedin.com/in/luis-eduardo-peixoto-da-silva/" target="_blank"> <img src="linkedin.png" alt="linkedin" height="50" width="50"></a>
-                    </div>
-                    <div class = "github">
-                        <script>
-                            function github(){
-                                alert("Será direcionado ao meu github!");
-                            }
-                            setTimeout(github, 3000);
-                        </script>
-                        <a href="https://github.com/LEDHU" target="_blank"> <img src="github.png" alt="github" height="50" width="50"></a>
-                    </div>
+          
+            <div class="rodape">
+              <div class="icones">
+                <div class="linkedin">
+                  <a href="https://www.linkedin.com/in/luis-eduardo-peixoto-da-silva/" target="_blank">
+                    <img src="linkedin.png" alt="linkedin" height="50" width="50" onclick="linkedin()">
+                  </a>
                 </div>
-
-                <div class = "tele">
-                    <a><img src="telefone.jpg" alt="telefone" height="50" width="50"></a>
-                    <p>Telefone: +55 081 99136-1221</p>
+                <div class="github">
+                  <a href="https://github.com/LEDHU" target="_blank">
+                    <img src="github.png" alt="github" height="50" width="50" onclick="github()">
+                  </a>
                 </div>
-                <br>
-
-                <div class = "email">
-                    <a><img src="email.png" alt="email" height="50" width="50"></a>
-                    <p>Email: luis.00000845392@unicap.br</p>
-                </div>
+              </div>
+          
+              <div class="tele">
+                <a><img src="telefone.jpg" alt="telefone" height="50" width="50"></a>
+                <p>Telefone: +55 081 99136-1221</p>
+              </div>
+              <br>
+          
+              <div class="email">
+                <a><img src="email.png" alt="email" height="50" width="50"></a>
+                <p>Email: luis.00000845392@unicap.br</p>
+              </div>
             </div>
-        </footer>
+          
+            <script>
+              function linkedin() {
+                alert("Será direcionado ao meu Linkedin!");
+              }
+          
+              function github() {
+                alert("Será direcionado ao meu GitHub!");
+              }
+            </script>
+          </footer>
             
     </body>
 </html>
